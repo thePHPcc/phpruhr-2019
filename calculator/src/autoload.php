@@ -7,7 +7,7 @@ spl_autoload_register(
         static $classes = null;
         if ($classes === null) {
             $classes = array(
-                'money' => '/Money.php'
+                'calculator' => '/Calculator.php'
             );
         }
         $cn = strtolower($class);
